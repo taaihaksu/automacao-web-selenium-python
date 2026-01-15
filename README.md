@@ -1,18 +1,19 @@
-Automação de Inscrição Web com Python & Selenium
-Este projeto automatiza o processo de inscrição em formulários web, utilizando a biblioteca Selenium para interação com elementos HTML. O script realiza a abertura do navegador, navegação até a página de destino, preenchimento de dados cadastrais e envio do formulário.
+# Automação de Teste Funcional (UI) com Selenium
 
-Tecnologias Utilizadas
-Python: Linguagem principal.
+Este projeto contém um script de automação desenvolvido em **Python** para validar o fluxo funcional de preenchimento de formulários em uma landing page. É um exemplo prático de como garantir a integridade de componentes de interface e processos de submissão de dados.
 
-Selenium WebDriver: Para automação de comandos no navegador.
+## Tecnologias e Conceitos Aplicados
+**Linguagem**: Python.
+**Framework**: Selenium WebDriver.
+**Seletores**: Mapeamento de elementos via **XPath Dinâmico**.
+**Área**: Quality Assurance (QA) / Automação de Testes.
 
-XPath: Para localização precisa de elementos na página.
+## 📋 Fluxo do Teste
+O script executa as seguintes etapas de validação:
+1. Acesso à URL alvo.
+2. Interação com elementos de pop-up (Modais).
+3. Input de dados em campos de texto (Nome, E-mail e Telefone).
+4. Submissão do formulário para validação do fluxo completo.
 
-Funcionalidades
-Acesso automático à URL de inscrição.
-
-Interação com pop-ups de conversão.
-
-Preenchimento automatizado de campos (Nome, E-mail e Telefone).
-
-Envio automático do formulário.
+---
+*Projeto desenvolvido para fins de estudo e portfólio na área de QA.*
